@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    
+}
+
+footer p {
+    color: purple;
+    background-color: aqua;
+}
+
+#firstpar {
+    color:aquamarine;
+}
+
+.blue {
+    color: blue;
+}
+
+.bigger {
+    font-size: 18pt;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
