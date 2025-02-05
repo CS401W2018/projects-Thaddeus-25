@@ -1,0 +1,32 @@
+body {
+    background-color: #EEE2DC;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #123C69;
+}
+
+h1 {
+    color: #AC3B61;
+    font-family: Verdana, serif;
+    font-size: 20pt;
+} 
+
+h2, h3 {
+    color: #AC3B61;
+    font-family: verdana, serif;
+    font-size: 16pt; 
+}
+
+dt {
+    font-weight: bold;
+}
+
+#song-name {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.low-contrast {
+    color: #325b87;
+}
+
+
