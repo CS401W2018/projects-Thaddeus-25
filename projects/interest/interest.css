@@ -25,6 +25,10 @@ dt {
     font-style: italic;
 }
 
+.emphasize {
+    color:black;
+}
+
 .low-contrast {
     color: #325b87;
 }
