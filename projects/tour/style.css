@@ -1,5 +1,5 @@
 body {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background: url("batikbg1.png") rgb(116, 116, 156) repeat;
     background-size: 30%;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,12 +7,14 @@ body {
 
 nav {
     font-weight: bold;
-    color:rgb(224, 22, 22);
 }
 
+a {
+    color:rgb(144, 248, 252);
+}
 
 main {
-    background-color: rgba(255, 255, 255, 0.527);
+    background-color: rgba(0, 0, 0, 0.137);
 }
 
 footer {
