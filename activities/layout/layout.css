@@ -1,0 +1,29 @@
+body {
+    background-color: blue;
+}
+
+nav a {
+    display: block;
+    padding: 5px 10px;
+    background-color: aquamarine;
+    color: white;
+    margin: 1em;
+    float: left;
+}
+
+nav a:hover {
+    background-color: aqua;
+}
+
+#wrapper {
+    background-color: aliceblue;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 1em;
+    border: thin solid #000;
+}
+
+.clear {
+    clear: both;
+}
