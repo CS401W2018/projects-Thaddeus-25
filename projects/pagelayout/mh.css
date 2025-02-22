@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(33, 41, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    border-top: groove thin;
+    border-bottom: groove thin;
+}
+
+header {
+    border: thick dashed white;
+    margin: 1em;
+    text-align: center;
+    border-radius: 7px;
+    background-image: url(mhbg.jpg);
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-origin: padding-box;
+}
+
+nav a {
+    display:block;
+    background-color: azure;
+    margin: .2em;
+    float: left;
+    text-decoration: none;
+    padding: .2em .5em;
+    font-weight: bold;
+    font-size: .7em;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: aqua;
+    color: white;
+}
+
+main h2{
+    background-color: rgb(238, 238, 238);
+    width: 300px;
+    padding: .5em 0 .5em .5em;
+}
+
+img {
+    width: 100%;
+    margin: 0;
+}
+
+main p {
+    line-height: 130%;
+}
+
+footer {
+    border-top: solid thin white;
+}
+
+.mainimg {
+    width: 400px;
+    margin-left: 0;
+    margin-top: 0;
+    float: left;
+    border: solid thin black;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5) ;
+}
+
+.undermainimg {
+    margin: 0;
+    padding-bottom: 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrapper {
+    width: 900px;
+    background-color: #c1c7c2d0;
+    padding: 0.2em 1em 1em;
+    border-radius: 5px;
+    margin: 0 auto;
+}
