@@ -14,11 +14,7 @@ header {
     margin: 1em;
     text-align: center;
     border-radius: 7px;
-    background-image: url(mhbg.jpg);
-    background-clip: padding-box;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-origin: padding-box;
+    
 }
 
 nav a {
@@ -55,6 +51,12 @@ main p {
 
 footer {
     border-top: solid thin white;
+    background-image: url(mhbg.jpg);
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-origin: padding-box;
+    background-position: right;
 }
 
 .mainimg {
