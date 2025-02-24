@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+    background-color: aqua;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px;
+
+}
+
+.child {
+    color: white;
+    background-color: blueviolet;
+}
