@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(31, 172, 172);
+    justify-content: space-evenly;
+}
+
+nav a {
+    display: block;
+    background-color: rgb(17, 136, 96);
+    color: white;
+    padding: 5px 10px; 
+}
+
+.parent {
+    background-color: rgb(211, 211, 39);
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.child {
+    background-color: rgb(221, 207, 235);
+    margin: 8px;
+    padding: 5px;
+    width: 100px;
+    
+}
+
+.featured {
+    order: -1;
+}
