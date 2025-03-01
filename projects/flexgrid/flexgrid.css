@@ -62,7 +62,7 @@ main {
 
 .card {
 
-    width: 250px;
+    width: 300px;
     border: thin black solid;
     box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
 }
