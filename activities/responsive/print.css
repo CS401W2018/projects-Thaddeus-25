@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-color: rgb(252, 252, 105);
+}
+
+nav {
+    display: none;
+}
+
+.cardparent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: thin solid black;
+    box-shadow: 3px 3px 3px rgba(40, 40, 40, 0.5);
+    width: 200px;
+    margin: 10px;
+}
+
+.card figure {
+    margin: 0;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    text-align: center;
+}
