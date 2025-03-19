@@ -12,44 +12,56 @@
     </header>
     <main>
         <form action="processing.html" method="get">
-            <div>
-                <label for="fullname">First Name: </label>
-                <input type="text" name="firstname" placeholder="First Name" required="required" id="fullname">
-            </div>
-            <div>
-                <label for="email">Email: </label>
-                <input type="email" name="email" value="thad@gmail.com" placeholder="Email" id="email">
-            </div>
-            <div>
-                <label for="pass">Password: </label>
-                <input type="password" name="password" placeholder="Password" id="pass">
-            </div>
-            <div>
-                <label for="state">State: </label>
-                <select name="state" id="state">
-                    <option value="blank"></option> 
-                   <option value="CO">Colorado</option> 
-                   <option value="HI" selected>Hawaii</option>
-                   <option value="UT">Utah</option>
-                </select>
-            </div>
-            <div>
-                <label>Year in School</label>
-                <label><input type="radio" name="year" value="freshman"> Freshman </label>
-                <label><input type="radio" name="year" value="sophmore"> Sophmore </label>
-            </div>
-            <div class="form-row">
-                <input type="submit">
-            </div>
+            <fieldset>
+                <div class="form-row">
+                    <label for="fullname">Full Name: </label>
+                    <input type="text" name="fulltname" placeholder="Full Name" required="required" id="fullname">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" value="thad@gmail.com" placeholder="Email" id="email">
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password: </label>
+                    <input type="password" name="password" placeholder="Password" id="pass">
+                </div>
+                <div class="form-row">
+                    <label for="state">State: </label>
+                    <select name="state" id="state">
+                        <option value="blank"></option> 
+                    <option value="CO">Colorado</option> 
+                    <option value="HI" selected>Hawaii</option>
+                    <option value="UT">Utah</option>
+                    </select>
+                </div>
+                <div class="radio-row">
+                    <label class="form-spacer">Year in School</label>
+                    <label><input type="radio" name="year" value="freshman"> Freshman </label>
+                    <label><input type="radio" name="year" value="sophmore" checked> Sophmore </label>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer"></div>
+                    <label><input type="checkbox" name="agree" id="agree" checked>Remember me</label>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-spacer"></div>
+                    <input type="submit">                    
+                </div>
+            </fieldset>
         </form>
-
-
-
 
         <h2>Engagement</h2>
         <p>1. Just like a link it will take the user to another page.</p>
         <p>2. To choose what will happen to the data when a user submit it to the server.</p>
         <p>3. POST will send data to the server and update the resources on the user's device. GET is used to get data from a server without changing anything.</p>
+
+        <h2>Engagement 2</h2>
+        <p>1. Flex, grid</p>
+        <p>2. Because flex is more flexible and easier to make a page accesible. It also requires a little work to make it resposnive to various screen size.</p>
     </main>
     <footer>
         <p>&copy;2025 Thaddeus Mak</p>
