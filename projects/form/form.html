@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Form</h1>
+    </header>
+    <main>
+        <form action="processing.html" method="get">
+            <fieldset>
+                <div class="form-row">
+                    <label for="textbox">Type something </label>
+                    <input type="textbox" name="fulltname" placeholder="type here" id="textbox">
+                </div>
+                <div class="form-row">
+                    <label for="fullname">Full Name: </label>
+                    <input type="text" name="fulltname" placeholder="Full Name" required="required" id="fullname">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" value="thad@gmail.com" placeholder="Email" id="email">
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password: </label>
+                    <input type="password" name="password" placeholder="Password" id="pass">
+                </div>
+                <div class="form-row">
+                    <label for="state">State: </label>
+                    <select name="state" id="state">
+                        <option value="blank"></option> 
+                        <option value="CO">Colorado</option> 
+                        <option value="HI" selected>Hawaii</option>
+                        <option value="UT">Utah</option>
+                    </select>
+                </div>
+                <div class="radio-row">
+                    <label class="form-spacer">Year in School</label>
+                    <label><input type="radio" name="year" value="freshman"> Freshman </label>
+                    <label><input type="radio" name="year" value="sophmore" checked> Sophmore </label>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer"></div>
+                    <label><input type="checkbox" name="agree" id="agree" checked>Remember me</label>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-spacer"></div>
+                    <input type="submit">                    
+                </div>
+            </fieldset>
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy;2025 Thaddeus Mak</p>
+    </footer>    
+</body>
+</html>
