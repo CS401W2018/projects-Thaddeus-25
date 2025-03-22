@@ -19,6 +19,7 @@ fieldset {
 .form-row label, .form-spacer{
     width: 150px;
     text-align: right;
+    font-weight: bold;
 }
 
 legend {
