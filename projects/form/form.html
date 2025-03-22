@@ -3,58 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form Project</title>
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <header>
-        <h1>Form</h1>
+        <h1>Set An Appoinment With Us</h1>
     </header>
     <main>
-        <form action="processing.html" method="get">
+        <form action="processing.html" method="post">
             <fieldset>
+                <legend>Login with your account to continue</legend>
                 <div class="form-row">
-                    <label for="textbox">Type something </label>
-                    <input type="textbox" name="fulltname" placeholder="type here" id="textbox">
-                </div>
-                <div class="form-row">
-                    <label for="fullname">Full Name: </label>
-                    <input type="text" name="fulltname" placeholder="Full Name" required="required" id="fullname">
+                    <label for="username">Username: </label>
+                    <input type="text" name="username" id="username" placeholder="Enter your name">
                 </div>
                 <div class="form-row">
                     <label for="email">Email: </label>
-                    <input type="email" name="email" value="thad@gmail.com" placeholder="Email" id="email">
+                    <input type="email" name="email" id="email" placeholder="Example@mail.com" required="required">
                 </div>
                 <div class="form-row">
                     <label for="pass">Password: </label>
-                    <input type="password" name="password" placeholder="Password" id="pass">
+                    <input type="password" name="password" id="pass" placeholder="********" required="required">
                 </div>
                 <div class="form-row">
-                    <label for="state">State: </label>
-                    <select name="state" id="state">
-                        <option value="blank"></option> 
-                        <option value="CO">Colorado</option> 
-                        <option value="HI" selected>Hawaii</option>
-                        <option value="UT">Utah</option>
-                    </select>
-                </div>
-                <div class="radio-row">
-                    <label class="form-spacer">Year in School</label>
-                    <label><input type="radio" name="year" value="freshman"> Freshman </label>
-                    <label><input type="radio" name="year" value="sophmore" checked> Sophmore </label>
-                </div>
-                <div class="radio-row">
-                    <div class="form-spacer"></div>
-                    <label><input type="checkbox" name="agree" id="agree" checked>Remember me</label>
+                    <label for="birth-date">Appointment date: </label>
+                    <input type="date" name="birth-date" id="birth-date" required>
                 </div>
                 <div class="form-row">
-                    <label for="comments">Comments:</label>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="12345678">
+                </div>
+                <div class="radio-row">
+                    <label class="form-spacer">Meal course: </label>
+                    <label><input type="radio" name="plan" value="basic" required>Basic</label>
+                    <label><input type="radio" name="plan" value="premium" required>Premium</label>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Additional comments: </label>
                     <textarea name="comments" id="comments"></textarea>
                 </div>
-                <div class="form-row">
+                <div class="radio-row">
                     <div class="form-spacer"></div>
-                    <input type="submit">                    
+                    <label><input type="checkbox" name="agree" id="agree" required="required"> I have read the <a href="#">terms and condition</a></label>                 
                 </div>
+                <div class="form-row">
+                    <div class="form-spacer"></div> 
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+
+
             </fieldset>
         </form>
 

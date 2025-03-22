@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    background-clip: padding-box;
+    border: thick dotted rgb(0, 0, 0);
+}
+
+.form-row, .radio-row {
+    display: flex;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.form-row label, .form-spacer{
+    width: 150px;
+    text-align: right;
+}
+
+legend {
+    background-color: rgb(120, 163, 51);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.form-row input:not([type="submit"]) {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(209, 203, 195);
+}
+
+.form-row input:not([type="submit"]):focus {
+    background-color: rgb(255, 255, 255);
+}
+
+.form-row input[type="submit"] {
+    padding: 3px 10px;
+    background-color: rgb(175, 55, 101);
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.form-row input[type="submit"]:hover {
+    background-color: rgb(80, 19, 104);
+}
+
+
+
+
+@media only screen and (Max-width: 600px) {
+    .form-row, .radio-row {
+        flex-direction: column;
+    }
+    
+    .form-row label {
+        text-align: left;
+    }
+
+    .form-spacer {
+        text-align: left;
+    }
+
+    .form-row input[type="submit"] {
+        padding: 10px;
+        font-size: large;
+    }
+}
