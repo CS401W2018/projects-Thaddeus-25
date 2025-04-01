@@ -1,5 +1,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.048);
+}
+
+header h1 {
+    display: block;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(54, 82, 82);
+    color: aliceblue;
+    padding: 5px 10px;
 }
 
 fieldset {
@@ -51,6 +60,10 @@ legend {
     background-color: rgb(80, 19, 104);
 }
 
+footer {
+    color:rgb(141, 26, 51);
+    padding-left: 10px;
+}
 
 
 

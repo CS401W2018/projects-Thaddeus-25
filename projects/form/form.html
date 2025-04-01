@@ -11,24 +11,25 @@
         <h1>Set An Appoinment With Us</h1>
     </header>
     <main>
-        <form action="processing.html" method="post">
+        <div id="message"></div>
+        <form action="processing.html" method="get" id="form">
             <fieldset>
-                <legend>Login with your account to continue</legend>
+                <legend>Sign up an account to continue</legend>
                 <div class="form-row">
                     <label for="username">Username: </label>
                     <input type="text" name="username" id="username" placeholder="Enter your name">
                 </div>
                 <div class="form-row">
                     <label for="email">Email: </label>
-                    <input type="email" name="email" id="email" placeholder="Example@mail.com" required="required">
+                    <input type="email" name="email" id="email" placeholder="Example@mail.com" required>
                 </div>
                 <div class="form-row">
                     <label for="pass">Password: </label>
-                    <input type="password" name="password" id="pass" placeholder="********" required="required">
+                    <input type="password" name="password" id="pass" placeholder="********" required>
                 </div>
                 <div class="form-row">
-                    <label for="birth-date">Appointment date: </label>
-                    <input type="date" name="birth-date" id="birth-date" required>
+                    <label for="appointment-date">Appointment date: </label>
+                    <input type="date" name="appointment-date" id="appointment-date">
                 </div>
                 <div class="form-row">
                     <label for="phone">Phone:</label>
@@ -36,7 +37,7 @@
                 </div>
                 <div class="radio-row">
                     <label class="form-spacer">Meal course: </label>
-                    <label><input type="radio" name="plan" value="basic" required>Basic</label>
+                    <label><input type="radio" name="plan" value="basic" required checked>Basic</label>
                     <label><input type="radio" name="plan" value="premium" required>Premium</label>
                 </div>
                 <div class="form-row">
@@ -59,6 +60,7 @@
     </main>
     <footer>
         <p>&copy;2025 Thaddeus Mak</p>
-    </footer>    
+    </footer> 
+    <script src="form.js"></script>   
 </body>
 </html>
