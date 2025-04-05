@@ -68,11 +68,10 @@ main {
     padding: 10px;
 }
 
-.figure-left {
+.figure-left, .figure-right {
     display: flex;
     flex-direction: column;
-    width: 400px;
-    
+    width: 400px; 
 }
 
 figure .text {
@@ -105,7 +104,6 @@ figure .text {
     margin-bottom: 0;
 }
 
-
 .weapon-table {
     background-color: aliceblue;
     border: solid thin black;
@@ -125,6 +123,13 @@ figure .text {
 
 }
 
+.figure-right {
+
+}
+
+.update-info {
+    flex-basis: 70%;
+}
 
 
 
@@ -178,7 +183,7 @@ footer {
         margin: 0;
     }
 
-    .figure-left {
+    .figure-left, .figure-right{
         align-self: center;
         width: 100%;    
     }
