@@ -5,8 +5,8 @@ html, body {
 
 header {
     background-color: rgba(250, 235, 215, 0.7);
-    margin: 10px;
-    border-radius: 5px;
+    margin: 0;
+    padding: 20px 20px;
     display: flex;
     flex-direction: row;
 }
@@ -34,6 +34,10 @@ nav {
 nav a {
     color: dimgray;
     display: block;
+    padding: 5px 5px;
+    text-align: center;
+    font-weight: bold;
+    align-content: center;
 }
 
 nav a:hover {
@@ -58,7 +62,7 @@ body {
 main {
     display: flex;
     flex-flow: row wrap;
-    margin: 10px;
+    margin: 10px 50px;
     background-color: rgba(255, 255, 254, 0.75);
 }
 
@@ -92,8 +96,12 @@ figure .text {
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
+.trailer p {
+    margin-bottom: 0;
+}
 
 
 
@@ -126,7 +134,7 @@ figure .text {
 
 footer {
     color: azure;
-    padding-left: 15px;
+    padding-left: 50px;
 }
 
 @media only screen and (max-width: 900) {
