@@ -1,0 +1,60 @@
+html, body {
+    height: 100%; 
+    margin: 0;    
+}
+
+header {
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+header h1 {
+    margin: 0;
+    width: 500px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    width: 80%;
+    align-self: center;
+    margin: 0;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: dimgray;
+    display: block;
+}
+
+
+nav a:hover {
+    background-color: grey;
+    color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("mhbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#content-box {
+    margin: 10px;
+    background-color: rgba(255, 255, 254, 0.945);
+    
+}
+.current {
+    color: black;
+}
