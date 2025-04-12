@@ -18,13 +18,52 @@
             <a href="play.html" class="current">Play together</a>        
         </nav>
     </header>
-    
     <main>
+        <h3 class="no-wrap">Play Together With Me</h3>
+        <p>Enter your data below to play together with me.</p>
 
+        <div id="message" class="no-wrap"></div>
+        <form action="processing.html" method="get" id="form" class="no-wrap">
+            <fieldset>
+                <legend>Enter your data</legend>
+                <div class="form-row">
+                    <label for="name">Contact name: </label>
+                    <input type="text" name="name" id="name" placeholder="Hunter">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="example@hunter.com">
+                </div>
+                <div class="form-row">
+                    <label for="hunterID">Hunter ID: </label>
+                    <input type="number" name="hunter id" id="hunterID" placeholder="12345678">
+                </div>
+                <div class="form-row">
+                    <label for="number">Phone number: </label>
+                    <input type="tel" name="phone number" id="number" placeholder="(123)45678">
+                </div>
+                <div class="radio-row">
+                    <label class="form-spacer">Purpose:</label>
+                    <label><input type="radio" name="purpose" value="leveling" required checked>Leveling up</label>
+                    <label><input type="radio" name="purpose" value="for fun" required>For fun</label>
+                </div>
+                <div class="form-row">
+                    <label for="comment">Additional comment:</label>
+                    <textarea name="comments" id="comment"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-spacer"></div> 
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </fieldset>
+        </form>
     </main>
     <footer>
         <p>&copy;2025 Thaddeus Mak</p>
     </footer>
+
+    <script src="final.js"></script>
 
     
 </body>
