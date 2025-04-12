@@ -289,18 +289,18 @@ footer {
     }
 
     fieldset {
-        width: fit-content;
+        width: 300px;
         margin: 0;
     }
 
     .form-row, .radio-row {
         flex-direction: column;
-        width: fit-content;
+        width: 100%;
     }
     
     .form-row label {
         text-align: left;
-        width: fit-content;
+        width: 100%;
     }
 
     .form-spacer {
