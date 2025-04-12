@@ -76,6 +76,15 @@ main {
     width: 400px; 
 }
 
+.monster-figure {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: black solid thin;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.747);
+    margin: 5px 10px;
+}
+
 figure .text {
     margin: 0;
     text-align: center;
@@ -192,7 +201,10 @@ h3 {
     margin: 0;
 }
 
-
+.monster-p {
+    width: 0;
+    flex-grow: 1;
+}
 
 
 
@@ -245,12 +257,12 @@ footer {
         margin: 0;
     }
 
-    .figure-left, .figure-right{
+    .figure-left, .figure-right, .monster-figure{
         align-self: center;
         width: 100%;    
     }
 
-    .main-info {
+    .main-info, .monster-p {
         width: 100%;
     }
 
